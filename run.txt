@@ -1,0 +1,14 @@
+sudo apt update
+sudo apt install python3 python3-pip
+pip install Flask
+pip install flask-socketio
+pip install eventlet
+pip install pyautogui
+pip install Pillow
+pip install pynput
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install -g create-react-app
+npm install socket.io-client
+echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0.0" >> ~/.bashrc
+source ~/.bashrc

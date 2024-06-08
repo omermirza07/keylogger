@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+  background: rgba(30, 30, 30, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.card-header {
+  background: #333;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.neon-green {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.card-body p {
+  font-size: 1.2rem;
+  word-wrap: break-word;
+}
+
+.card-body img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ 
